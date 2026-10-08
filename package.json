@@ -1,0 +1,12 @@
+{
+  "name": "dither-wallpaper",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "render": "node render.mjs",
+    "setup": "npx playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "1.64.0"
+  }
+}
